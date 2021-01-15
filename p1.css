@@ -3,7 +3,7 @@
     height: 500px;
     position: relative;
     left: 400px;
-    background-image: url("IMG/galaxy.jpg");
+    background-image: url("image/galaxy.jpg");
   
   }
   
@@ -14,9 +14,16 @@
     top: 0px;
   }
 
+  #score {
+    position: relative;
+    color: rgb(0, 0, 0);
+    left: 580px;
+    top: 0px;
+  }
+
   #control-information {
     position: relative;
-    color :rgb(0, 0, 0);
+    color :rgb(243, 6, 6);
     left: 400px;
   }
   
@@ -38,6 +45,7 @@
     left: 20px;
     top: 180px;
   }
+
   
   .laser {
     width: 20px;
@@ -54,10 +62,6 @@
     background-color: #fff;
   }
   
-  .monster-transition {
-    opacity: 1;
-    transition: opacity 1.5s ease-out;
-  }
   
   
   .dead-monster {
